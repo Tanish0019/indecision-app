@@ -1,0 +1,18 @@
+html {
+    font-family: 62.5%;
+}
+
+body {
+    background-color: $dark-blue;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+}
+
+button:disabled {
+    cursor: default;
+}
